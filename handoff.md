@@ -4,7 +4,7 @@
 
 - 2026-09-22：正式依赖已安装，Supabase migration 已执行；排行榜表读取返回 HTTP 200，RPC 无效参数校验返回 HTTP 400。
 - 2026-09-22：已建立公开 GitHub 仓库 `kongsi-idea/tahun2-bc-zonghe`，并部署 Vercel preview：<https://tahun2-bc-zonghe-3z8g2goax-kongsi-idea.vercel.app>。
-- 2026-09-22：已登记到 Kongsi Idea 课堂点子铺工具目录，Hub 卡片使用真实首页、难度、题目与排行榜截图；Hub 已上线 <https://eduneo-hub.vercel.app>，工具本身仍指向验收 preview。
+- 2026-09-22：已登记到 Kongsi Idea 课堂点子铺工具目录，Hub 卡片使用真实首页、难度、题目与排行榜截图；Hub 已上线 <https://eduneo-hub.vercel.app>，卡片现已指向正式工具域名 <https://tahun2-bc-zonghe.vercel.app>。
 - 展示名称固定为《华文勇者大冒险》；slug 固定为 `tahun2-bc-zonghe`。
 - 定位为二年级华文跨单元综合闯关，不宣称覆盖听说读写全部课程。
 
@@ -29,13 +29,13 @@
 
 ## 下一步
 
-1. 老师从课堂点子铺卡片打开 preview，验收视觉、手机布局、音效和玩法。
+1. 老师从课堂点子铺卡片打开正式工具域名，验收视觉、手机布局、音效和玩法。
 2. 用真实班级代码与真实访客完成一次成绩写入／读取验证，不使用测试姓名。
-3. 确认访问保护与李老师原作／插画授权后，再决定是否切正式 alias。
+3. 用真实班级代码与访客完成一次成绩写入／读取验证。
 
 ## 未解决限制
 
 - Supabase migration 已执行；目前表为空，排行榜会显示「等待勇者出发」。
-- preview 已建立；因 Kongsi Idea 团队默认启用 SSO，普通未登录访客会先看到 Vercel 登录页，本次未擅自改动项目保护设定。
-- 已登记课堂点子铺并上线 Hub；目前卡片链接仍指向受 Kongsi Idea 团队 SSO 保护的工具 preview，普通未登录访客会先看到登录页。
+- 正式工具域名已建立并返回 HTTP 200；尚未用真实班级代码与访客完成成绩写入／读取验证。
+- 已登记课堂点子铺并上线 Hub；卡片链接指向独立工具域名，不再使用 preview URL。
 - 李老师提供的代码与生成插画公开授权仍需保留确认记录。
