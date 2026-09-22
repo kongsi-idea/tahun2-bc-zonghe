@@ -3,6 +3,7 @@
 ## 状态
 
 - 2026-09-22：正式依赖已安装，Supabase migration 已执行；排行榜表读取返回 HTTP 200，RPC 无效参数校验返回 HTTP 400。
+- 2026-09-22：已建立公开 GitHub 仓库 `kongsi-idea/tahun2-bc-zonghe`，并部署 Vercel preview：<https://tahun2-bc-zonghe-p5mjvw3eh-kongsi-idea.vercel.app>。
 - 展示名称固定为《华文勇者大冒险》；slug 固定为 `tahun2-bc-zonghe`。
 - 定位为二年级华文跨单元综合闯关，不宣称覆盖听说读写全部课程。
 
@@ -19,21 +20,21 @@
 
 - 220题第二轮逐题审查并重写59题；转换脚本已由权威 Markdown 实际重建220题。
 - Vite／React 前端完成访客与 Kelasku 多班名单、22站、三档难度、存档、音效、无限挑战及公开排行榜介面。
-- Supabase 表与 RPC migration 草案已放进 Kongsi Idea，但尚未执行。
+- Supabase 表与 RPC migration 已放进 Kongsi Idea 并执行；线上只读验证通过，未写入假的成绩。
 - 字体由 10,185,640 bytes 子集化为 228,988 bytes；向导图缩至 600×720，背景维持 1672×941 无损优化。
 - 原交接包已可恢复地移至 `~/Documents/待删除/华文勇者大冒险_完整交接包_2026-09-21/`；教材PDF与检索文本归入 `~/Documents/资料库/_待核实/华文课本资料/二年级/`。
-- `npm install` 已生成正式 `package-lock.json`；`npm run check` 与 `npm run build` 均通过。
+- `npm install` 已生成正式 `package-lock.json`；`npm run check` 与 `npm run build` 均通过；Vercel preview 构建状态为 Ready。
 - 线上验证只读检查通过；没有写入假的访客成绩，避免污染公开排行榜。
 
 ## 下一步
 
-1. 建立 GitHub 远端与 Vercel preview，交老师点击验收。
+1. 老师打开 Vercel preview 验收视觉、手机布局、音效和玩法。
 2. 用真实班级代码与真实访客完成一次成绩写入／读取验证，不使用测试姓名。
 3. 教师验收后再切正式 alias、截图及登记 Hub。
 
 ## 未解决限制
 
 - Supabase migration 已执行；目前表为空，排行榜会显示「等待勇者出发」。
-- 尚未部署 preview；线上工具 URL 尚未建立。
+- preview 已建立；因 Kongsi Idea 团队默认启用 SSO，普通未登录访客会先看到 Vercel 登录页，本次未擅自改动项目保护设定。
 - 尚未部署或登记课堂点子铺。
 - 朋友提供的代码与生成插画公开授权仍需保留确认记录。
