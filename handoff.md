@@ -4,7 +4,7 @@
 
 - 2026-09-22：正式依赖已安装，Supabase migration 已执行；排行榜表读取返回 HTTP 200，RPC 无效参数校验返回 HTTP 400。
 - 2026-09-22：已建立公开 GitHub 仓库 `kongsi-idea/tahun2-bc-zonghe`，并部署 Vercel preview：<https://tahun2-bc-zonghe-3z8g2goax-kongsi-idea.vercel.app>。
-- 2026-09-22：已登记到 Kongsi Idea 课堂点子铺工具目录，Hub 卡片使用真实首页、难度、题目与排行榜截图；正式 alias 尚未切换。
+- 2026-09-22：已登记到 Kongsi Idea 课堂点子铺工具目录，Hub 卡片使用真实首页、难度、题目与排行榜截图；Hub preview 为 <https://kongsi-idea-ofgswnvvm-kongsi-idea.vercel.app>，正式 alias 尚未切换。
 - 展示名称固定为《华文勇者大冒险》；slug 固定为 `tahun2-bc-zonghe`。
 - 定位为二年级华文跨单元综合闯关，不宣称覆盖听说读写全部课程。
 
