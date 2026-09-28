@@ -125,23 +125,23 @@ export const QUESTION_BANK: Question[] = [
     "knowledgePoint": "普通字音与拼音",
     "difficulty": "advanced",
     "difficultyLabel": "⭐进阶",
-    "prompt": "“海浪”的“浪”读什么？",
+    "prompt": "哪一项是“海浪”的正确拼音？",
     "options": [
       {
         "id": "A",
-        "text": "làng"
+        "text": "hǎi làng"
       },
       {
         "id": "B",
-        "text": "nàng"
+        "text": "hǎi nàng"
       },
       {
         "id": "C",
-        "text": "lǎng"
+        "text": "hāi lǎng"
       },
       {
         "id": "D",
-        "text": "lán"
+        "text": "hái lán"
       }
     ],
     "correctOptionId": "A",
@@ -152,23 +152,23 @@ export const QUESTION_BANK: Question[] = [
     "knowledgePoint": "普通字音与拼音",
     "difficulty": "advanced",
     "difficultyLabel": "⭐进阶",
-    "prompt": "“朋友”的“朋”读什么？",
+    "prompt": "哪一项是“朋友”的正确拼音？",
     "options": [
       {
         "id": "A",
-        "text": "pén"
+        "text": "pén yǒu"
       },
       {
         "id": "B",
-        "text": "péng"
+        "text": "péng yǒu"
       },
       {
         "id": "C",
-        "text": "pěn"
+        "text": "pěng yòu"
       },
       {
         "id": "D",
-        "text": "pèn"
+        "text": "pèng yǒu"
       }
     ],
     "correctOptionId": "B",
@@ -179,23 +179,23 @@ export const QUESTION_BANK: Question[] = [
     "knowledgePoint": "普通字音与拼音",
     "difficulty": "advanced",
     "difficultyLabel": "⭐进阶",
-    "prompt": "“观察”的“察”读什么？",
+    "prompt": "哪一项是“观察”的正确拼音？",
     "options": [
       {
         "id": "A",
-        "text": "cā"
+        "text": "guān cā"
       },
       {
         "id": "B",
-        "text": "cá"
+        "text": "guàn cá"
       },
       {
         "id": "C",
-        "text": "chā"
+        "text": "guǎn chā"
       },
       {
         "id": "D",
-        "text": "chá"
+        "text": "guān chá"
       }
     ],
     "correctOptionId": "D",
@@ -206,81 +206,81 @@ export const QUESTION_BANK: Question[] = [
     "knowledgePoint": "普通字音与拼音",
     "difficulty": "brave",
     "difficultyLabel": "🔥勇者",
-    "prompt": "哪一项是“时间”的正确拼音？",
+    "prompt": "哪一组两个词的拼音都正确？",
     "options": [
       {
         "id": "A",
-        "text": "shí jiān"
+        "text": "时间 shí jiān、世界 shì jiè"
       },
       {
         "id": "B",
-        "text": "sí jiān"
+        "text": "时间 sí jiān、世界 shì jiě"
       },
       {
         "id": "C",
-        "text": "shǐ jiàn"
+        "text": "时间 shǐ jiàn、世界 sì jiè"
       },
       {
         "id": "D",
-        "text": "shì jiǎn"
+        "text": "时间 shì jiǎn、世界 shǐ jiè"
       }
     ],
     "correctOptionId": "A",
-    "source": "课本第十七单元“时间”"
+    "source": "课本第一、十七单元“世界、时间”"
   },
   {
     "id": "PY-009",
     "knowledgePoint": "普通字音与拼音",
     "difficulty": "brave",
     "difficultyLabel": "🔥勇者",
-    "prompt": "哪一项是“科学”的正确拼音？",
+    "prompt": "哪一组两个词的拼音都正确？",
     "options": [
       {
         "id": "A",
-        "text": "kě xué"
+        "text": "科学 kě xué、春天 chūn tiān"
       },
       {
         "id": "B",
-        "text": "kē xuě"
+        "text": "科学 kē xuě、春天 cūn tiān"
       },
       {
         "id": "C",
-        "text": "kē xué"
+        "text": "科学 kē xué、春天 chūn tiān"
       },
       {
         "id": "D",
-        "text": "kè xuě"
+        "text": "科学 kè xuě、春天 chǔn tián"
       }
     ],
     "correctOptionId": "C",
-    "source": "课本第九单元“科学家”"
+    "source": "课本第四、九单元“春天、科学”"
   },
   {
     "id": "PY-010",
     "knowledgePoint": "普通字音与拼音",
     "difficulty": "brave",
     "difficultyLabel": "🔥勇者",
-    "prompt": "哪一项是“春天”的正确拼音？",
+    "prompt": "哪一组两个词的拼音都正确？",
     "options": [
       {
         "id": "A",
-        "text": "chūn tiān"
+        "text": "校园 xiào yuán、教室 jiào shì"
       },
       {
         "id": "B",
-        "text": "cūn tiān"
+        "text": "校园 xiǎo yuán、教室 jiāo shì"
       },
       {
         "id": "C",
-        "text": "chǔn tián"
+        "text": "校园 xiāo yuán、教室 jiào sì"
       },
       {
         "id": "D",
-        "text": "chùn tiǎn"
+        "text": "校园 xiào yán、教室 jiǎo shǐ"
       }
     ],
     "correctOptionId": "A",
-    "source": "课本第四单元“春天”"
+    "source": "课本第一单元“校园、教室”"
   },
   {
     "id": "DY-001",
@@ -1857,7 +1857,7 @@ export const QUESTION_BANK: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "盒子里有真也有假。"
+        "text": "这世界有真也有假。"
       },
       {
         "id": "B",
@@ -1869,11 +1869,11 @@ export const QUESTION_BANK: Question[] = [
       },
       {
         "id": "D",
-        "text": "小朋友开心地笑。"
+        "text": "小鱼开心地笑。"
       }
     ],
     "correctOptionId": "A",
-    "source": "活动本反义词练习改编"
+    "source": "深广课文《世界很小又很大》"
   },
   {
     "id": "FY-010",
@@ -2640,7 +2640,7 @@ export const QUESTION_BANK: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "顽皮的科学家在观察。"
+        "text": "顽皮的时间在观察。"
       },
       {
         "id": "B",
@@ -2879,7 +2879,7 @@ export const QUESTION_BANK: Question[] = [
     "knowledgePoint": "情境选词",
     "difficulty": "advanced",
     "difficultyLabel": "⭐进阶",
-    "prompt": "小组到森林里（　）花儿。",
+    "prompt": "为了看清花瓣，妹妹走近去（　）花朵。",
     "options": [
       {
         "id": "A",
@@ -2899,7 +2899,7 @@ export const QUESTION_BANK: Question[] = [
       }
     ],
     "correctOptionId": "C",
-    "source": "第十三单元“观察花儿”改编"
+    "source": "第十二、十三单元“观察、花朵”"
   },
   {
     "id": "XQ-008",
@@ -3527,7 +3527,7 @@ export const QUESTION_BANK: Question[] = [
     "knowledgePoint": "标点符号",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "“同学，你好（　）”句末应该用什么标点？",
+    "prompt": "小鱼兴奋地说：“青蛙大哥，你好（　）”句末应该用什么标点？",
     "options": [
       {
         "id": "A",
@@ -3547,7 +3547,7 @@ export const QUESTION_BANK: Question[] = [
       }
     ],
     "correctOptionId": "A",
-    "source": "第五单元对话形式改编"
+    "source": "第五单元对话与感叹号"
   },
   {
     "id": "BD-002",
@@ -3608,7 +3608,7 @@ export const QUESTION_BANK: Question[] = [
     "knowledgePoint": "标点符号",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "“阳光悄悄来到校园（　）花儿在阳光下开放。”空格应该用什么标点？",
+    "prompt": "“青蛙大哥（　）你在做什么？”称呼后面应该用什么标点？",
     "options": [
       {
         "id": "A",
@@ -3628,7 +3628,7 @@ export const QUESTION_BANK: Question[] = [
       }
     ],
     "correctOptionId": "D",
-    "source": "第一单元内容改编"
+    "source": "第五单元对话形式"
   },
   {
     "id": "BD-005",
@@ -3720,23 +3720,23 @@ export const QUESTION_BANK: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "小明问。“校园什么样？”"
+        "text": "小鱼问。“岸上什么样？”"
       },
       {
         "id": "B",
-        "text": "小明问！“校园什么样。”"
+        "text": "小鱼问！“岸上什么样。”"
       },
       {
         "id": "C",
-        "text": "小明问？“校园什么样！”"
+        "text": "小鱼问？“岸上什么样！”"
       },
       {
         "id": "D",
-        "text": "小明问：“校园什么样？”"
+        "text": "小鱼问：“岸上什么样？”"
       }
     ],
     "correctOptionId": "D",
-    "source": "第五单元对话形式改编"
+    "source": "第五单元对话形式"
   },
   {
     "id": "BD-009",
@@ -3747,23 +3747,23 @@ export const QUESTION_BANK: Question[] = [
     "options": [
       {
         "id": "A",
-        "text": "小明说：“我认真观察，是为了找到答案。”"
+        "text": "老师说：“我们要珍惜时间。”"
       },
       {
         "id": "B",
-        "text": "小明说？“我认真观察，是为了找到答案。”"
+        "text": "老师说？“我们要珍惜时间。”"
       },
       {
         "id": "C",
-        "text": "小明说。“我认真观察，是为了找到答案？”"
+        "text": "老师说。“我们要珍惜时间？”"
       },
       {
         "id": "D",
-        "text": "小明说！“我认真观察，是为了找到答案，”"
+        "text": "老师说！“我们要珍惜时间，”"
       }
     ],
     "correctOptionId": "A",
-    "source": "第十三单元内容改编"
+    "source": "第十七单元“珍惜时间”；教材对话形式"
   },
   {
     "id": "BD-010",
@@ -4877,7 +4877,34 @@ export const QUESTION_BANK: Question[] = [
     "knowledgePoint": "阅读理解：寻找明确信息",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "阅读：课间休息时，同学们向操场奔去，大家开心地游戏。<br>同学们去了哪里？",
+    "prompt": "阅读：早上，妹妹把字典放进书包，把画纸留在书桌上。<br>妹妹把什么放进书包？",
+    "options": [
+      {
+        "id": "A",
+        "text": "字典"
+      },
+      {
+        "id": "B",
+        "text": "画纸"
+      },
+      {
+        "id": "C",
+        "text": "台灯"
+      },
+      {
+        "id": "D",
+        "text": "笔筒"
+      }
+    ],
+    "correctOptionId": "A",
+    "source": "识字一“字典、书桌、台灯、笔筒”；句式重组"
+  },
+  {
+    "id": "RD-002",
+    "knowledgePoint": "阅读理解：寻找明确信息",
+    "difficulty": "basic",
+    "difficultyLabel": "🌱基础",
+    "prompt": "阅读：课间，同学们先在操场游戏，然后回教室朗读。<br>同学们在哪里朗读？",
     "options": [
       {
         "id": "A",
@@ -4893,215 +4920,107 @@ export const QUESTION_BANK: Question[] = [
       },
       {
         "id": "D",
-        "text": "列车"
+        "text": "夜市"
       }
     ],
-    "correctOptionId": "A",
-    "source": "第一单元“操场、游戏”"
-  },
-  {
-    "id": "RD-002",
-    "knowledgePoint": "阅读理解：寻找明确信息",
-    "difficulty": "basic",
-    "difficultyLabel": "🌱基础",
-    "prompt": "阅读：小朋友想到校园外看看，可是下雨了，只好留在教室里。<br>小朋友原来想去哪里？",
-    "options": [
-      {
-        "id": "A",
-        "text": "教室"
-      },
-      {
-        "id": "B",
-        "text": "岸上"
-      },
-      {
-        "id": "C",
-        "text": "校园外"
-      },
-      {
-        "id": "D",
-        "text": "森林"
-      }
-    ],
-    "correctOptionId": "C",
-    "source": "第一单元“校园、教室”"
+    "correctOptionId": "B",
+    "source": "第一单元“操场、游戏、教室、朗读”；句式重组"
   },
   {
     "id": "RD-003",
     "knowledgePoint": "阅读理解：寻找明确信息",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "阅读：小明看见水烧开了，壶盖不停地跳动。<br>谁看见壶盖跳动？",
+    "prompt": "阅读：桌上有一盏台灯。台灯旁边是笔筒，三支笔都在笔筒里。<br>三支笔在哪里？",
     "options": [
       {
         "id": "A",
-        "text": "小明"
+        "text": "书包里"
       },
       {
         "id": "B",
-        "text": "小华"
+        "text": "台灯下"
       },
       {
         "id": "C",
-        "text": "老师"
+        "text": "笔筒里"
       },
       {
         "id": "D",
-        "text": "同学"
+        "text": "书橱里"
       }
     ],
-    "correctOptionId": "A",
-    "source": "第九单元“观察、提出问题”改编"
+    "correctOptionId": "C",
+    "source": "识字一“台灯、笔筒、书包、书橱”；句式重组"
   },
   {
     "id": "RD-004",
     "knowledgePoint": "阅读理解：寻找明确信息",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "阅读：下雨时，小朋友把一片大荷叶举在头上遮雨。<br>荷叶像什么？",
+    "prompt": "阅读：雨停后，小华收起雨伞，走到池塘边观察荷花。<br>小华观察什么？",
     "options": [
       {
         "id": "A",
-        "text": "唱片"
+        "text": "海浪"
       },
       {
         "id": "B",
-        "text": "雨伞"
+        "text": "彩灯"
       },
       {
         "id": "C",
-        "text": "小船"
+        "text": "风筝"
       },
       {
         "id": "D",
-        "text": "机场"
+        "text": "荷花"
       }
     ],
-    "correctOptionId": "B",
-    "source": "第十二单元“荷叶像雨伞”改编"
+    "correctOptionId": "D",
+    "source": "第十二单元“观察、荷花、池塘”；教材词语重组"
   },
   {
     "id": "RD-005",
     "knowledgePoint": "阅读理解：寻找明确信息",
     "difficulty": "advanced",
     "difficultyLabel": "⭐进阶",
-    "prompt": "阅读：蒲公英的种子被风吹起来，飘到远处。<br>什么帮助种子旅行？",
+    "prompt": "阅读：傍晚，渔船从海上回来。工人马上把鱼虾分门别类。<br>渔船什么时候回来？",
     "options": [
       {
         "id": "A",
-        "text": "风"
+        "text": "傍晚"
       },
       {
         "id": "B",
-        "text": "水"
+        "text": "早上"
       },
       {
         "id": "C",
-        "text": "小鸟"
+        "text": "课间"
       },
       {
         "id": "D",
-        "text": "松鼠"
+        "text": "半夜"
       }
     ],
     "correctOptionId": "A",
-    "source": "第十三单元“种子传播”改编"
+    "source": "第八单元“傍晚、渔船、鱼虾、分门别类”"
   },
   {
     "id": "RD-006",
     "knowledgePoint": "阅读理解：寻找明确信息",
     "difficulty": "advanced",
     "difficultyLabel": "⭐进阶",
-    "prompt": "阅读：一种花发出臭味，苍蝇飞来后把花粉带到另一朵花上。<br>苍蝇帮助花儿做什么？",
+    "prompt": "阅读：蓝色箱子收纸张，绿色箱子收玻璃。小明把报纸放进蓝色箱子。<br>蓝色箱子收什么？",
     "options": [
       {
         "id": "A",
-        "text": "寻找种子"
+        "text": "玻璃"
       },
       {
         "id": "B",
-        "text": "传播花粉"
-      },
-      {
-        "id": "C",
-        "text": "清理垃圾"
-      },
-      {
-        "id": "D",
-        "text": "保护森林"
-      }
-    ],
-    "correctOptionId": "B",
-    "source": "第十三单元“传播花粉”改编"
-  },
-  {
-    "id": "RD-007",
-    "knowledgePoint": "阅读理解：寻找明确信息",
-    "difficulty": "advanced",
-    "difficultyLabel": "⭐进阶",
-    "prompt": "阅读：小华说药包能治百病。小明问：“为什么不先治好自己的臭气？”<br>谁提出了问题？",
-    "options": [
-      {
-        "id": "A",
-        "text": "老师"
-      },
-      {
-        "id": "B",
-        "text": "小华"
-      },
-      {
-        "id": "C",
-        "text": "小明"
-      },
-      {
-        "id": "D",
-        "text": "小丽"
-      }
-    ],
-    "correctOptionId": "C",
-    "source": "第十六单元“提问、臭气”改编"
-  },
-  {
-    "id": "RD-008",
-    "knowledgePoint": "阅读理解：寻找明确信息",
-    "difficulty": "brave",
-    "difficultyLabel": "🔥勇者",
-    "prompt": "阅读：小组到街头观察，发现行人和骑自行车的人都停住不动。<br>小组在哪里观察？",
-    "options": [
-      {
-        "id": "A",
-        "text": "学校"
-      },
-      {
-        "id": "B",
-        "text": "森林"
-      },
-      {
-        "id": "C",
-        "text": "夜市"
-      },
-      {
-        "id": "D",
-        "text": "街头"
-      }
-    ],
-    "correctOptionId": "D",
-    "source": "第十七单元“街头、观察”改编"
-  },
-  {
-    "id": "RD-009",
-    "knowledgePoint": "阅读理解：寻找明确信息",
-    "difficulty": "brave",
-    "difficultyLabel": "🔥勇者",
-    "prompt": "阅读：桌上有筷子、玩具、糕点、晶露和叮叮糖。<br>短文没有提到哪一样东西？",
-    "options": [
-      {
-        "id": "A",
-        "text": "年糕"
-      },
-      {
-        "id": "B",
-        "text": "筷子"
+        "text": "纸张"
       },
       {
         "id": "C",
@@ -5109,620 +5028,674 @@ export const QUESTION_BANK: Question[] = [
       },
       {
         "id": "D",
-        "text": "叮叮糖"
+        "text": "糕点"
+      }
+    ],
+    "correctOptionId": "B",
+    "source": "第十四单元“纸张、玻璃、旧物分类”；情境重组"
+  },
+  {
+    "id": "RD-007",
+    "knowledgePoint": "阅读理解：寻找明确信息",
+    "difficulty": "advanced",
+    "difficultyLabel": "⭐进阶",
+    "prompt": "阅读：小丽先读故事，再把最喜欢的一段抄进本子，最后画一幅画。<br>读完故事后，小丽先做什么？",
+    "options": [
+      {
+        "id": "A",
+        "text": "收拾书包"
+      },
+      {
+        "id": "B",
+        "text": "朗读课文"
+      },
+      {
+        "id": "C",
+        "text": "抄进本子"
+      },
+      {
+        "id": "D",
+        "text": "观察花朵"
+      }
+    ],
+    "correctOptionId": "C",
+    "source": "第二、十七单元“故事、抄、本子、画”；句式重组"
+  },
+  {
+    "id": "RD-008",
+    "knowledgePoint": "阅读理解：寻找明确信息",
+    "difficulty": "brave",
+    "difficultyLabel": "🔥勇者",
+    "prompt": "阅读：夜市左边卖糕点和晶露，右边卖玩具和风筝。妹妹想买风筝。<br>妹妹应该走向哪一边？",
+    "options": [
+      {
+        "id": "A",
+        "text": "教室"
+      },
+      {
+        "id": "B",
+        "text": "操场"
+      },
+      {
+        "id": "C",
+        "text": "左边"
+      },
+      {
+        "id": "D",
+        "text": "右边"
+      }
+    ],
+    "correctOptionId": "D",
+    "source": "第十九单元“夜市、糕点、晶露、玩具、风筝”；情境重组"
+  },
+  {
+    "id": "RD-009",
+    "knowledgePoint": "阅读理解：寻找明确信息",
+    "difficulty": "brave",
+    "difficultyLabel": "🔥勇者",
+    "prompt": "阅读：桌上有年画、字典、报纸和一盏台灯。哥哥拿走字典后，桌上还剩三样东西。<br>哪一样已经不在桌上？",
+    "options": [
+      {
+        "id": "A",
+        "text": "字典"
+      },
+      {
+        "id": "B",
+        "text": "年画"
+      },
+      {
+        "id": "C",
+        "text": "报纸"
+      },
+      {
+        "id": "D",
+        "text": "台灯"
       }
     ],
     "correctOptionId": "A",
-    "source": "第十九单元“夜市物品”改编"
+    "source": "识字一及第四单元“年画、字典、报纸、台灯”；情境重组"
   },
   {
     "id": "RD-010",
     "knowledgePoint": "阅读理解：寻找明确信息",
     "difficulty": "brave",
     "difficultyLabel": "🔥勇者",
-    "prompt": "阅读：小组发现一行狗的脚印，便顺着脚印走到守林人的住房。<br>小组顺着什么走过去？",
+    "prompt": "阅读：第一组观察荷花，第二组观察种子，第三组观察海浪。小芳在第二组。<br>小芳观察什么？",
     "options": [
       {
         "id": "A",
-        "text": "狐狸的脚印"
+        "text": "荷花"
       },
       {
         "id": "B",
-        "text": "狗的脚印"
+        "text": "种子"
       },
       {
         "id": "C",
-        "text": "野山羊的脚印"
+        "text": "海浪"
       },
       {
         "id": "D",
-        "text": "自己的脚印"
+        "text": "彩灯"
       }
     ],
     "correctOptionId": "B",
-    "source": "第二十一单元“脚印、守林人”改编"
+    "source": "第十二、十三单元“观察、荷花、种子”；情境重组"
   },
   {
     "id": "YG-001",
     "knowledgePoint": "阅读理解：原因与结果",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "阅读：课间休息时，同学们开心地游戏和欢笑，校园像一座乐园。<br>校园为什么像一座乐园？",
+    "prompt": "阅读：下雨了，小芳撑着雨伞回家，衣服没有湿。<br>小芳的衣服为什么没有湿？",
     "options": [
       {
         "id": "A",
-        "text": "同学们开心地游戏和欢笑。"
+        "text": "她撑着雨伞。"
       },
       {
         "id": "B",
-        "text": "校园里没有人。"
+        "text": "她跑得很快。"
       },
       {
         "id": "C",
-        "text": "同学们都在睡觉。"
+        "text": "她穿着校服。"
       },
       {
         "id": "D",
-        "text": "操场变成了大海。"
+        "text": "她带着字典。"
       }
     ],
     "correctOptionId": "A",
-    "source": "第一单元“校园、游戏”改编"
+    "source": "第十二单元“雨伞”；教材生活情境重组"
   },
   {
     "id": "YG-002",
     "knowledgePoint": "阅读理解：原因与结果",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "阅读：小朋友想到操场去，可是外面下大雨，只好留在教室里。<br>小朋友为什么不能到操场去？",
+    "prompt": "阅读：弟弟把散在地上的玩具收拾好，房间变得干干净净。<br>房间为什么变干净？",
     "options": [
       {
         "id": "A",
-        "text": "他不喜欢操场。"
+        "text": "姐姐打开台灯。"
       },
       {
         "id": "B",
-        "text": "外面下大雨。"
+        "text": "弟弟收拾了玩具。"
       },
       {
         "id": "C",
-        "text": "他找不到同学。"
+        "text": "妹妹画了一幅画。"
       },
       {
         "id": "D",
-        "text": "他要回家。"
+        "text": "奶奶买了年糕。"
       }
     ],
     "correctOptionId": "B",
-    "source": "第一单元“操场、教室”改编"
+    "source": "第十四单元“收拾、干干净净”；情境重组"
   },
   {
     "id": "YG-003",
     "knowledgePoint": "阅读理解：原因与结果",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "阅读：小朋友跌进水缸里，同学搬起大石打破水缸，救出了他。<br>同学为什么打破水缸？",
+    "prompt": "阅读：同学们天天认真朗读，现在读书声又清楚又响亮。<br>读书声为什么有进步？",
     "options": [
       {
         "id": "A",
-        "text": "他想玩游戏。"
+        "text": "教室变大了。"
       },
       {
         "id": "B",
-        "text": "他想搬走水缸。"
+        "text": "课本变漂亮了。"
       },
       {
         "id": "C",
-        "text": "他要救跌进水缸的小朋友。"
+        "text": "同学们天天认真朗读。"
       },
       {
         "id": "D",
-        "text": "他要找一块石头。"
+        "text": "操场上很热闹。"
       }
     ],
     "correctOptionId": "C",
-    "source": "第九单元“解决问题、救人”改编"
+    "source": "第一单元“朗读、朗朗的读书声”；句式重组"
   },
   {
     "id": "YG-004",
     "knowledgePoint": "阅读理解：原因与结果",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "阅读：一种花发出臭味，吸引苍蝇来传播花粉。<br>花儿为什么发出臭味？",
+    "prompt": "阅读：小树几天没有水，叶子都弯下来了。<br>叶子为什么弯下来？",
     "options": [
       {
         "id": "A",
-        "text": "为了让自己漂亮。"
+        "text": "风筝飞得太高。"
       },
       {
         "id": "B",
-        "text": "为了赶走小鸟。"
+        "text": "阳光来到教室。"
       },
       {
         "id": "C",
-        "text": "为了让种子发芽。"
+        "text": "小鸟停在树上。"
       },
       {
         "id": "D",
-        "text": "为了吸引苍蝇传播花粉。"
+        "text": "小树几天没有水。"
       }
     ],
     "correctOptionId": "D",
-    "source": "第十三单元“传播花粉”改编"
+    "source": "第五单元“浇水、种树”；情境重组"
   },
   {
     "id": "YG-005",
     "knowledgePoint": "阅读理解：原因与结果",
     "difficulty": "advanced",
     "difficultyLabel": "⭐进阶",
-    "prompt": "阅读：大卡车每天把垃圾送来，空地变得肮肮脏脏。<br>空地为什么变得肮肮脏脏？",
+    "prompt": "阅读：太阳出来了，雾慢慢消失，房屋和街道又出现了。<br>房屋和街道为什么又出现？",
     "options": [
       {
         "id": "A",
-        "text": "大卡车每天送垃圾来。"
+        "text": "雾消失了。"
       },
       {
         "id": "B",
-        "text": "同学每天来游戏。"
+        "text": "彩灯亮了。"
       },
       {
         "id": "C",
-        "text": "人们在那里种花。"
+        "text": "夜市开了。"
       },
       {
         "id": "D",
-        "text": "彩灯把空地照亮了。"
+        "text": "海浪来了。"
       }
     ],
     "correctOptionId": "A",
-    "source": "第十四单元“垃圾、肮脏”改编"
+    "source": "第十一单元“太阳、雾、消失、出现”"
   },
   {
     "id": "YG-006",
     "knowledgePoint": "阅读理解：原因与结果",
     "difficulty": "advanced",
     "difficultyLabel": "⭐进阶",
-    "prompt": "阅读：小华说药包医百病。小明问他为什么不治自己的臭气，他羞红了脸并跑掉。<br>小华为什么羞红了脸并跑掉？",
+    "prompt": "阅读：小明用心观察，发现荷叶下有一条小鱼。<br>小明为什么能发现小鱼？",
     "options": [
       {
         "id": "A",
-        "text": "他的药被卖完了。"
+        "text": "他听见读书声。"
       },
       {
         "id": "B",
-        "text": "小明问他为什么不治自己的臭气。"
+        "text": "他用心观察。"
       },
       {
         "id": "C",
-        "text": "同学不买他的药。"
+        "text": "他收拾了书包。"
       },
       {
         "id": "D",
-        "text": "别人说他的药太香。"
+        "text": "他跑到夜市。"
       }
     ],
     "correctOptionId": "B",
-    "source": "第十六单元“臭气、提问”改编"
+    "source": "第十二单元“用心观察、发现”；句式重组"
   },
   {
     "id": "YG-007",
     "knowledgePoint": "阅读理解：原因与结果",
     "difficulty": "advanced",
     "difficultyLabel": "⭐进阶",
-    "prompt": "阅读：小华发现华文写话还没完成，心里很着急，便向老师多借一小时。<br>小华为什么借时间？",
+    "prompt": "阅读：夜市里一盏盏彩灯都亮了，街道变得十分明亮。<br>街道为什么变明亮？",
     "options": [
       {
         "id": "A",
-        "text": "他想去夜市。"
+        "text": "太阳出来了。"
       },
       {
         "id": "B",
-        "text": "他想在街头游戏。"
+        "text": "花儿开放了。"
       },
       {
         "id": "C",
-        "text": "他的华文写话还没完成。"
+        "text": "彩灯都亮了。"
       },
       {
         "id": "D",
-        "text": "他要去森林观察动物。"
+        "text": "渔船回来了。"
       }
     ],
     "correctOptionId": "C",
-    "source": "第十七单元“时间、写话”改编"
+    "source": "第十九、二十单元“夜市、彩灯、明亮”；情境重组"
   },
   {
     "id": "YG-008",
     "knowledgePoint": "阅读理解：原因与结果",
     "difficulty": "brave",
     "difficultyLabel": "🔥勇者",
-    "prompt": "阅读：两个同学发现教室的门破了，却都等着对方去修，门便越来越破。<br>门为什么越来越破？",
+    "prompt": "阅读：奶奶用洗米水浇花，又用洗衣服的水洗刷厕所，所以家里省下不少水。<br>家里为什么能省水？",
     "options": [
       {
         "id": "A",
-        "text": "大雨把门修好了。"
+        "text": "奶奶每天买水。"
       },
       {
         "id": "B",
-        "text": "他们没有找到木板。"
+        "text": "奶奶没有洗衣服。"
       },
       {
         "id": "C",
-        "text": "风每天把门搬走。"
+        "text": "奶奶不让大家喝水。"
       },
       {
         "id": "D",
-        "text": "两个同学都等对方去修。"
+        "text": "奶奶把用过的水再利用。"
       }
     ],
     "correctOptionId": "D",
-    "source": "活动本“合作、解决问题”改编"
+    "source": "第十四单元“珍惜水、洗米水、洗刷厕所”"
   },
   {
     "id": "YG-009",
     "knowledgePoint": "阅读理解：原因与结果",
     "difficulty": "brave",
     "difficultyLabel": "🔥勇者",
-    "prompt": "阅读：孩子们为了抄近路走进森林，又顺着动物脚印追去，结果迷路了。<br>孩子们为什么迷路？",
+    "prompt": "阅读：第一组把纸张送去加工，第二组把玻璃送去加工。教室里的旧物少了，也更干净了。<br>教室为什么更干净？",
     "options": [
       {
         "id": "A",
-        "text": "他们抄近路，还顺着动物脚印追去。"
+        "text": "同学们把旧物分类送去加工。"
       },
       {
         "id": "B",
-        "text": "他们跟着爷爷回家。"
+        "text": "老师关上教室的门。"
       },
       {
         "id": "C",
-        "text": "他们一直走在村子的小路上。"
+        "text": "大家把旧物藏在书桌下。"
       },
       {
         "id": "D",
-        "text": "他们在守林人的住房里睡觉。"
+        "text": "同学们都到操场游戏。"
       }
     ],
     "correctOptionId": "A",
-    "source": "第二十一单元“抄近路、脚印、迷路”改编"
+    "source": "第十四单元“纸张、玻璃、加工、干净”；情境重组"
   },
   {
     "id": "YG-010",
     "knowledgePoint": "阅读理解：原因与结果",
     "difficulty": "brave",
     "difficultyLabel": "🔥勇者",
-    "prompt": "阅读：小朋友想参加活动、看童书，也希望家人健康。他的心像一个百宝箱。<br>他为什么这样比喻？",
+    "prompt": "阅读：小华先完成华文写话，才到操场玩。他不慌不忙，还能准时回家。<br>小华为什么不慌张？",
     "options": [
       {
         "id": "A",
-        "text": "心里只有一个愿望。"
+        "text": "他没有带课本。"
       },
       {
         "id": "B",
-        "text": "心里装着许多希望和快乐。"
+        "text": "他先完成该做的事。"
       },
       {
         "id": "C",
-        "text": "百宝箱里只有奶油蛋糕。"
+        "text": "他把功课交给朋友。"
       },
       {
         "id": "D",
-        "text": "他想把箱子藏起来。"
+        "text": "他一直在操场游戏。"
       }
     ],
     "correctOptionId": "B",
-    "source": "第二十二单元“百宝箱、愿望”改编"
+    "source": "第十七单元“完成写话、利用时间、慌张”；情境重组"
   },
   {
     "id": "SX-001",
     "knowledgePoint": "阅读理解：事情先后",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "阅读：阳光来到校园，接着花儿开放了，校园变得很美丽。<br>阳光来到校园后，接着发生什么事？",
+    "prompt": "阅读：小华先打开书包，接着拿出课本，最后开始朗读。<br>打开书包后，小华接着做什么？",
     "options": [
       {
         "id": "A",
-        "text": "花儿开放了。"
+        "text": "拿出课本。"
       },
       {
         "id": "B",
-        "text": "天空变黑了。"
+        "text": "收拾玩具。"
       },
       {
         "id": "C",
-        "text": "雾把校园藏起来。"
+        "text": "走到夜市。"
       },
       {
         "id": "D",
-        "text": "同学们回家了。"
+        "text": "观察荷花。"
       }
     ],
     "correctOptionId": "A",
-    "source": "第一单元“阳光、花儿开放”改编"
+    "source": "第一单元“书包、课本、朗读”；句式重组"
   },
   {
     "id": "SX-002",
     "knowledgePoint": "阅读理解：事情先后",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "阅读：小明先挖好树洞，接着小华运来肥料，大家一起把小树栽好。<br>小明挖好树洞后，接着谁运来肥料？",
+    "prompt": "阅读：同学们先挖好树洞，接着放进小树，最后为小树浇水。<br>挖好树洞后，接着做什么？",
     "options": [
       {
         "id": "A",
-        "text": "小鱼"
+        "text": "收集种子。"
       },
       {
         "id": "B",
-        "text": "小华"
+        "text": "放进小树。"
       },
       {
         "id": "C",
-        "text": "小猫"
+        "text": "画一幅画。"
       },
       {
         "id": "D",
-        "text": "小鸟"
+        "text": "搬走肥料。"
       }
     ],
     "correctOptionId": "B",
-    "source": "第五单元“树洞、肥料”改编"
+    "source": "第五单元“挖洞、种树、浇水”；情境重组"
   },
   {
     "id": "SX-003",
     "knowledgePoint": "阅读理解：事情先后",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "阅读：小朋友跌进水缸后，同学搬起大石打破水缸，小朋友得救了。<br>小朋友跌进水缸后，同学接着怎么做？",
+    "prompt": "阅读：妹妹先画大马路，再画两边的房屋，最后画上大树。<br>画完大马路后，她画什么？",
     "options": [
       {
         "id": "A",
-        "text": "跑回家睡觉。"
+        "text": "大树"
       },
       {
         "id": "B",
-        "text": "跟朋友玩游戏。"
+        "text": "海浪"
       },
       {
         "id": "C",
-        "text": "搬大石打破水缸。"
+        "text": "房屋"
       },
       {
         "id": "D",
-        "text": "把水缸藏起来。"
+        "text": "彩灯"
       }
     ],
     "correctOptionId": "C",
-    "source": "第九单元“解决问题、救人”改编"
+    "source": "第二单元“画马路、房屋、大树”；句式重组"
   },
   {
     "id": "SX-004",
     "knowledgePoint": "阅读理解：事情先后",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "阅读：雾先把太阳和城市藏起来，最后又把自己藏起来，一切都出现了。<br>雾最后把什么藏起来？",
+    "prompt": "阅读：小明先把纸张分类，再送到工厂，最后纸张被加工成有用的东西。<br>小明把纸张分类后，接着做什么？",
     "options": [
       {
         "id": "A",
-        "text": "河水"
+        "text": "放进书包。"
       },
       {
         "id": "B",
-        "text": "房屋"
+        "text": "拿到夜市。"
       },
       {
         "id": "C",
-        "text": "街道"
+        "text": "留在地上。"
       },
       {
         "id": "D",
-        "text": "自己"
+        "text": "送到工厂。"
       }
     ],
     "correctOptionId": "D",
-    "source": "第十一单元“雾、藏起来”改编"
+    "source": "第十四单元“纸张、分类、工厂、加工”；情境重组"
   },
   {
     "id": "SX-005",
     "knowledgePoint": "阅读理解：事情先后",
     "difficulty": "advanced",
     "difficultyLabel": "⭐进阶",
-    "prompt": "阅读：几块木板排成一行后，小朋友踏着木板走过小河。<br>木板排成一行后，小朋友接着怎么做？",
+    "prompt": "阅读：雨先停了，接着太阳出来，最后同学们到操场游戏。<br>第二件发生的事是什么？",
     "options": [
       {
         "id": "A",
-        "text": "踏着木板走过小河。"
+        "text": "太阳出来。"
       },
       {
         "id": "B",
-        "text": "给木板准备食物。"
+        "text": "雨停了。"
       },
       {
         "id": "C",
-        "text": "回家拿果子。"
+        "text": "同学们游戏。"
       },
       {
         "id": "D",
-        "text": "留在河边喝水。"
+        "text": "花儿开放。"
       }
     ],
     "correctOptionId": "A",
-    "source": "第十六单元“过河”改编"
+    "source": "第一、十一单元“雨、太阳、操场、游戏”；句式重组"
   },
   {
     "id": "SX-006",
     "knowledgePoint": "阅读理解：事情先后",
     "difficulty": "advanced",
     "difficultyLabel": "⭐进阶",
-    "prompt": "阅读：老师借给小华一小时。小华先到街头观察，再完成写话。<br>老师借给小华一小时后，小华先去哪里？",
+    "prompt": "阅读：渔船回到渔村后，工人先为鱼虾称重，再把鱼虾分门别类。<br>称重后，工人接着做什么？",
     "options": [
       {
         "id": "A",
-        "text": "学校"
+        "text": "驾驶渔船。"
       },
       {
         "id": "B",
-        "text": "街头"
+        "text": "把鱼虾分门别类。"
       },
       {
         "id": "C",
-        "text": "夜市"
+        "text": "到稻田留影。"
       },
       {
         "id": "D",
-        "text": "森林"
+        "text": "回家朗读。"
       }
     ],
     "correctOptionId": "B",
-    "source": "第十七单元“街头、观察、写话”改编"
+    "source": "第八单元“渔船、称重、分门别类”；句式重组"
   },
   {
     "id": "SX-007",
     "knowledgePoint": "阅读理解：事情先后",
     "difficulty": "advanced",
     "difficultyLabel": "⭐进阶",
-    "prompt": "阅读：妹妹请姐姐教她做功课，姐姐不肯帮助妹妹，继续想着要做什么好事情。<br>妹妹请姐姐教她做功课后，姐姐怎么做？",
+    "prompt": "阅读：种子落进泥土。雨水把泥土浇湿，过了一些日子，种子发芽了。<br>泥土变湿后，接着发生什么事？",
     "options": [
       {
         "id": "A",
-        "text": "马上教妹妹。"
+        "text": "种子飞走了。"
       },
       {
         "id": "B",
-        "text": "去找妈妈。"
+        "text": "泥土变干净。"
       },
       {
         "id": "C",
-        "text": "不肯帮助妹妹，继续想好事情。"
+        "text": "种子发芽了。"
       },
       {
         "id": "D",
-        "text": "帮奶奶洗盘子。"
+        "text": "雨水回到天空。"
       }
     ],
     "correctOptionId": "C",
-    "source": "第十八单元“好事情”改编"
+    "source": "第十二、十三单元“泥土、雨水、种子、发芽”；情境重组"
   },
   {
     "id": "SX-008",
     "knowledgePoint": "阅读理解：事情先后",
     "difficulty": "brave",
     "difficultyLabel": "🔥勇者",
-    "prompt": "阅读：小组发现狗的脚印，大家便顺着脚印走到守林人的住房。<br>小组发现脚印后，接着发生什么事？",
+    "prompt": "阅读：小丽先观察花朵，再把发现写进本子，然后画下花朵，最后收拾书桌。<br>写进本子后，小丽接着做什么？",
     "options": [
       {
         "id": "A",
-        "text": "大家继续追狐狸。"
+        "text": "收拾书桌。"
       },
       {
         "id": "B",
-        "text": "大家留在森林里。"
+        "text": "离开教室。"
       },
       {
         "id": "C",
-        "text": "大家坐下来哭。"
+        "text": "把本子送人。"
       },
       {
         "id": "D",
-        "text": "大家顺着脚印走到守林人的住房。"
+        "text": "画下花朵。"
       }
     ],
     "correctOptionId": "D",
-    "source": "第二十一单元“脚印、守林人”改编"
+    "source": "第十二单元“观察、发现”；第一单元“写、画、书桌”；情境重组"
   },
   {
     "id": "SX-009",
     "knowledgePoint": "阅读理解：事情先后",
     "difficulty": "brave",
     "difficultyLabel": "🔥勇者",
-    "prompt": "阅读：风使劲吹蒲公英，蒲公英便像降落伞一样飘得满天飞。<br>风使劲吹蒲公英后，接着发生什么事？",
+    "prompt": "阅读：老师先打开书橱，取出一本故事书，读完故事后把书放回书橱。<br>老师取出故事书后，接着做什么？",
     "options": [
       {
         "id": "A",
-        "text": "蒲公英像降落伞一样飘得满天飞。"
+        "text": "读故事。"
       },
       {
         "id": "B",
-        "text": "蒲公英马上沉入水底。"
+        "text": "关闭图书馆。"
       },
       {
         "id": "C",
-        "text": "小朋友全都回家了。"
+        "text": "画大马路。"
       },
       {
         "id": "D",
-        "text": "风停止吹动。"
+        "text": "整理鱼虾。"
       }
     ],
     "correctOptionId": "A",
-    "source": "第十八单元拓展阅读“蒲公英”改编"
+    "source": "识字一“书橱、看书”；第二十二单元“故事”；情境重组"
   },
   {
     "id": "SX-010",
     "knowledgePoint": "阅读理解：事情先后",
     "difficulty": "brave",
     "difficultyLabel": "🔥勇者",
-    "prompt": "阅读：两个同学发现教室的门破了，却一直没有修，最后门被风吹坏了。<br>他们一直没有修门，最后发生什么事？",
+    "prompt": "阅读：哥哥先完成写话，再教妹妹做功课，最后两人才一起游戏。<br>哥哥完成写话后，接着做什么？",
     "options": [
       {
         "id": "A",
-        "text": "门变得又新又暖。"
+        "text": "一个人去游戏。"
       },
       {
         "id": "B",
-        "text": "门被风吹坏了。"
+        "text": "教妹妹做功课。"
       },
       {
         "id": "C",
-        "text": "他们搬到夜市。"
+        "text": "收拾夜市。"
       },
       {
         "id": "D",
-        "text": "他们请小鸟来修。"
+        "text": "到森林观察。"
       }
     ],
     "correctOptionId": "B",
-    "source": "活动本“做事负责”改编"
+    "source": "第十七、十八单元“完成写话、功课、帮助”；情境重组"
   },
   {
     "id": "TL-001",
     "knowledgePoint": "阅读理解：简单推断",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "小朋友很会钓鱼，可以说他是什么？",
+    "prompt": "小华看见朋友跌倒，马上扶他起来。可以看出小华怎样？",
     "options": [
       {
         "id": "A",
-        "text": "钓鱼能手"
-      },
-      {
-        "id": "B",
-        "text": "画家"
-      },
-      {
-        "id": "C",
-        "text": "科学家"
-      },
-      {
-        "id": "D",
-        "text": "司机"
-      }
-    ],
-    "correctOptionId": "A",
-    "source": "第四单元“钓鱼能手”改编"
-  },
-  {
-    "id": "TL-002",
-    "knowledgePoint": "阅读理解：简单推断",
-    "difficulty": "basic",
-    "difficultyLabel": "🌱基础",
-    "prompt": "小明答应每天给朋友讲故事，可以看出小明怎样？",
-    "options": [
-      {
-        "id": "A",
-        "text": "顽皮"
-      },
-      {
-        "id": "B",
         "text": "愿意帮助朋友"
+      },
+      {
+        "id": "B",
+        "text": "顽皮"
       },
       {
         "id": "C",
@@ -5733,204 +5706,231 @@ export const QUESTION_BANK: Question[] = [
         "text": "慌张"
       }
     ],
+    "correctOptionId": "A",
+    "source": "第五、十八单元“朋友、扶、帮助”；情境重组"
+  },
+  {
+    "id": "TL-002",
+    "knowledgePoint": "阅读理解：简单推断",
+    "difficulty": "basic",
+    "difficultyLabel": "🌱基础",
+    "prompt": "小丽每天观察种子的变化，还把发现写进本子。可以看出她怎样？",
+    "options": [
+      {
+        "id": "A",
+        "text": "不喜欢学习"
+      },
+      {
+        "id": "B",
+        "text": "观察得很认真"
+      },
+      {
+        "id": "C",
+        "text": "只想玩游戏"
+      },
+      {
+        "id": "D",
+        "text": "不愿意写字"
+      }
+    ],
     "correctOptionId": "B",
-    "source": "第五单元“帮助朋友”改编"
+    "source": "第十二、十三单元“观察、种子、发现”；情境重组"
   },
   {
     "id": "TL-003",
     "knowledgePoint": "阅读理解：简单推断",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "同学在大家慌张时想办法救人，可以看出他怎样？",
+    "prompt": "弟弟先完成写话，才和朋友游戏。可以看出他怎样？",
     "options": [
       {
         "id": "A",
-        "text": "慌张"
+        "text": "不爱游戏"
       },
       {
         "id": "B",
-        "text": "害怕"
+        "text": "害怕朋友"
       },
       {
         "id": "C",
-        "text": "聪明勇敢"
+        "text": "懂得利用时间"
       },
       {
         "id": "D",
-        "text": "又臭又懒"
+        "text": "忘了做功课"
       }
     ],
     "correctOptionId": "C",
-    "source": "第九单元“聪明勇敢”改编"
+    "source": "第十七单元“完成写话、利用时间”；情境重组"
   },
   {
     "id": "TL-004",
     "knowledgePoint": "阅读理解：简单推断",
     "difficulty": "basic",
     "difficultyLabel": "🌱基础",
-    "prompt": "爱观察和思考的孩子常常提出问题，也会认真学习。我们可以知道什么？",
+    "prompt": "哥哥读完故事书，再借给妹妹看。可以看出哥哥怎样？",
     "options": [
       {
         "id": "A",
-        "text": "只要会游戏就能成功。"
+        "text": "只爱收藏"
       },
       {
         "id": "B",
-        "text": "看见问题不用思考。"
+        "text": "不喜欢妹妹"
       },
       {
         "id": "C",
-        "text": "提问会让人慌张。"
+        "text": "不爱看书"
       },
       {
         "id": "D",
-        "text": "爱观察和思考能帮助学习。"
+        "text": "愿意和家人分享"
       }
     ],
     "correctOptionId": "D",
-    "source": "第九单元“观察、思考、科学家”改编"
+    "source": "第十八、二十二单元“故事、妹妹、家人、分享”；情境重组"
   },
   {
     "id": "TL-005",
     "knowledgePoint": "阅读理解：简单推断",
     "difficulty": "advanced",
     "difficultyLabel": "⭐进阶",
-    "prompt": "小组先询问同学，再到校园实地观察，最后找到答案。可以看出他们怎样？",
+    "prompt": "大家离开教室后，小明留下来把纸张和玻璃分开放好。最可能说明什么？",
     "options": [
       {
         "id": "A",
-        "text": "做事认真，愿意寻找答案。"
+        "text": "小明注重环保。"
       },
       {
         "id": "B",
-        "text": "不喜欢学习。"
+        "text": "小明想把教室弄脏。"
       },
       {
         "id": "C",
-        "text": "只相信传说。"
+        "text": "小明不知道怎样分类。"
       },
       {
         "id": "D",
-        "text": "不愿意观察。"
+        "text": "小明不愿意回家。"
       }
     ],
     "correctOptionId": "A",
-    "source": "第十三单元“观察、寻找答案”改编"
+    "source": "第十四单元“纸张、玻璃、分类、环保”；情境重组"
   },
   {
     "id": "TL-006",
     "knowledgePoint": "阅读理解：简单推断",
     "difficulty": "advanced",
     "difficultyLabel": "⭐进阶",
-    "prompt": "城里的垃圾箱干干净净，垃圾也没有丢在马路上。最可能说明什么？",
+    "prompt": "小芳遇到不明白的词，先查字典，再请教老师。可以看出她怎样？",
     "options": [
       {
         "id": "A",
-        "text": "城市里没有人。"
+        "text": "害怕提问"
       },
       {
         "id": "B",
-        "text": "人们注重环保。"
+        "text": "愿意想办法学习"
       },
       {
         "id": "C",
-        "text": "垃圾都放在马路上。"
+        "text": "只喜欢画画"
       },
       {
         "id": "D",
-        "text": "风把垃圾藏起来了。"
+        "text": "不想知道答案"
       }
     ],
     "correctOptionId": "B",
-    "source": "第十四单元“环保、干干净净”改编"
+    "source": "识字一“查字典”；第九单元“提问、学习”；情境重组"
   },
   {
     "id": "TL-007",
     "knowledgePoint": "阅读理解：简单推断",
     "difficulty": "advanced",
     "difficultyLabel": "⭐进阶",
-    "prompt": "小华说药能治臭气，却不治自己的臭气。可以推断什么？",
+    "prompt": "天空越来越黑，妈妈出门时带上雨伞。最可能发生什么事？",
     "options": [
       {
         "id": "A",
-        "text": "他忘了带药。"
+        "text": "太阳更明亮。"
       },
       {
         "id": "B",
-        "text": "他不喜欢干净。"
+        "text": "夜市马上开。"
       },
       {
         "id": "C",
-        "text": "他的药不能包医百病。"
+        "text": "可能快下雨了。"
       },
       {
         "id": "D",
-        "text": "同学不会提问。"
+        "text": "海浪来到校园。"
       }
     ],
     "correctOptionId": "C",
-    "source": "第十六单元“臭气、推断”改编"
+    "source": "第十一、十二单元“天空、黑、雨、雨伞”；情境重组"
   },
   {
     "id": "TL-008",
     "knowledgePoint": "阅读理解：简单推断",
     "difficulty": "brave",
     "difficultyLabel": "🔥勇者",
-    "prompt": "姐姐只想着做大事，却不愿帮身边的人。妈妈的话告诉我们什么？",
+    "prompt": "小华发现花儿旁边的泥土很干，叶子也弯了，便马上为花浇水。可以看出小华怎样？",
     "options": [
       {
         "id": "A",
-        "text": "好事一定要去很远的地方做。"
+        "text": "只喜欢玩水。"
       },
       {
         "id": "B",
-        "text": "只有救人才算好事。"
+        "text": "不愿意观察。"
       },
       {
         "id": "C",
-        "text": "想一想就等于做好事。"
+        "text": "想把花搬走。"
       },
       {
         "id": "D",
-        "text": "帮助身边的人也是做好事。"
+        "text": "能从变化想到合适的做法。"
       }
     ],
     "correctOptionId": "D",
-    "source": "第十八单元“好事情”改编"
+    "source": "第五、十二单元“泥土、叶子、观察、浇水”；情境重组"
   },
   {
     "id": "TL-009",
     "knowledgePoint": "阅读理解：简单推断",
     "difficulty": "brave",
     "difficultyLabel": "🔥勇者",
-    "prompt": "小组利用老师教的脚印知识走出森林，说明什么？",
+    "prompt": "第一组朗读得很流利，还天天练习；第二组很少练习，朗读时常停住。我们可以知道什么？",
     "options": [
       {
         "id": "A",
-        "text": "学到的知识可以解决问题。"
+        "text": "多练习能帮助朗读进步。"
       },
       {
         "id": "B",
-        "text": "在森林里追动物最好玩。"
+        "text": "朗读和练习没有关系。"
       },
       {
         "id": "C",
-        "text": "抄近路一定比较安全。"
+        "text": "很少练习一定读得更好。"
       },
       {
         "id": "D",
-        "text": "害怕时只要大喊就行。"
+        "text": "只要声音大就能读好。"
       }
     ],
     "correctOptionId": "A",
-    "source": "第二十一单元“脚印知识、解决问题”改编"
+    "source": "第一单元“朗读”；教材“练习、流利”；情境重组"
   },
   {
     "id": "TL-010",
     "knowledgePoint": "阅读理解：简单推断",
     "difficulty": "brave",
     "difficultyLabel": "🔥勇者",
-    "prompt": "一个小朋友愿意和同学参加活动、看童书，也希望家人健康。可以看出这个小朋友怎样？",
+    "prompt": "妹妹把喜欢的糕点分给家人，又把故事书借给同学。可以看出她怎样？",
     "options": [
       {
         "id": "A",
@@ -5938,7 +5938,7 @@ export const QUESTION_BANK: Question[] = [
       },
       {
         "id": "B",
-        "text": "爱学习，也关心家人。"
+        "text": "愿意分享，也关心别人。"
       },
       {
         "id": "C",
@@ -5946,10 +5946,10 @@ export const QUESTION_BANK: Question[] = [
       },
       {
         "id": "D",
-        "text": "只想吃蛋糕。"
+        "text": "只想一个人游戏。"
       }
     ],
     "correctOptionId": "B",
-    "source": "第二十二单元“百宝箱、愿望”改编"
+    "source": "第四、十八、二十二单元“糕点、家人、故事、同学”；情境重组"
   }
 ];
